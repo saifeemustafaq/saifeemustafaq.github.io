@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html	>
 <html>
 <head>
 <title>Aapli City</title>
@@ -8,8 +8,8 @@ body{
 	top:0;
 	margin:0px;
 	padding:0px;
-	background:url('/images/3.jpg') no-repeat center center fixed;
-	
+	background:url('images/3.jpg') no-repeat center center fixed;
+
 }
 
 header{
@@ -19,7 +19,7 @@ header{
 
 }
 header h1{
-	
+
 	width:300px;
 	margin:20px auto;
 	font-size:50px;
@@ -29,17 +29,17 @@ header h1{
 }
 
 header form{
-	
+
 	width:1000px;
 	margin:0px auto;
-	margin-top:100px;
+	margin-top:50px;
 	margin-bottom:30px;
 	//border:1px solid black;
 
 }
 
 header form input[type="text"]{
-	
+
 	width:1000px;
 	margin:10px auto;
 	padding:10px;
@@ -54,13 +54,10 @@ header form input[type="text"]{
 
 	width:300px;
 	margin:10px auto;
-	//border:1px solid black;
-
 
 }
 header form input[type="submit"]{
-	
-	
+
 	width:300px;
 	padding:5px;
 	margin:0px auto;
@@ -69,52 +66,55 @@ header form input[type="submit"]{
 	color:white;
 	background-color:rgb(255,150,0);
 	outline:none;
-	
+
 
 }
 
 #search_cont{
-
-
 	width:300px;
 	height:300px;
-	margin:0px auto; 
+	margin:0px auto;
 	border:1px solid black;
 	border-radius:100%;
-	
+
 
 
 }
 #btns{
-
-	width:1300px;
+	width:100%;
 	margin:0px auto;
 	margin-top:70px;
-	margin-bottom:70px;
-	//border:1px solid black;
-
 }
 .but{
-
-	width:200px;
+	display: inline-block;
+	width:190px;
 	height:50px;
 	padding:5px;
-	margin-top:100px;
-	margin-left:174px;
+	margin: 0px 0px 50px 100px;
 	font-size:20px;
 	font-weight:bold;
 	color:white;
-	background-color:rgb(10,10,255);
+	background-color:#333;
 	border:none;
-	//border-radius:12px;
+	border-radius:12px;
 	outline:none;
-
+	text-align: center;
+	justify-content: center;
 }
 #hdiv{
 
 	width:1000px;
 	margin:20px auto;
 	border:1px solid white;
+}
+a {
+	vertical-align: middle;
+	margin-top: 10px;
+	line-height: 50px;
+	color: #fff;
+	height: 55px;
+	text-decoration: none;
+
 }
 </style>
 </head>
@@ -128,22 +128,22 @@ header form input[type="submit"]{
 			<div id="go"><input type="submit" name="submitSearch" value="Go"></div>
 		</form>
 		<div id="btns">
-			
-			<a href="retails.html"><input type="button" class="but" value="Retails"></a>
-			<a href="services.html"><input type="button" class="but" value="Services"></a>
-			<a href="professionals.html"><input type="button" class="but" value="Professionals"></a>
-			<a href="restaurants.php"><input type="button" class="but" value="Restaurants"></a>
-			<a href="hotels.php"><input type="button" class="but" value="Hotels/Lodges"></a>
-			<a href="travels.php"><input type="button" class="but" value="Travels"></a>
-			<a href="petrolpumps.php"><input type="button" class="but" value="Petrol Pumps"></a>
-			<a href="education.php"><input type="button" class="but" value="Education"></a>
-			<a href="gyms.php"><input type="button" class="but" value="Gyms"></a>
-			<a href="showrooms.php"><input type="button" class="but" value="Showrooms"></a>
-			<a href="banks.php"><input type="button" class="but" value="Banks"></a>
-			<a href="realestate.php"><input type="button" class="but" value="Real Estate"></a>
-		
+
+			<div class="but"><a href="retails.html">Retails</a></div>
+			<div class="but"><a href="services.html">Services</a></div>
+			<div class="but"><a href="professionals.html">Professionals</a></div>
+			<div class="but"><a href="restaurants.html">Restaurants</a></div>
+			<div class="but"><a href="hotels.html">Hotels/Lodges</a></div>
+			<div class="but"><a href="travels.html">Travels</a></div>
+			<div class="but"><a href="petrolpumps.html">Petrol Pumps</a></div>
+			<div class="but"><a href="education.html">Education</a></div>
+			<div class="but"><a href="gyms.html" >Gyms</a></div>
+			<div class="but"><a href="showrooms.html">Showrooms</a></div>
+			<div class="but"><a href="banks.html">Banks</a></div>
+			<div class="but"><a href="realestate.html">Real Estate</a></div>
+
 		</div>
-	
+
 </div>
 </body>
 </html>

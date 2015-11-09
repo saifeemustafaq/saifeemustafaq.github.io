@@ -9,15 +9,15 @@ body{
 	margin:0px;
 	padding:0px;
 	background:url('/images/3.jpg') no-repeat center center fixed;
-	
+
 }
 
 #upper{
-	
+
 	top:0;
 	width:100%;
 	height:100%;
-	
+
 	border:1px solid white;
 
 }
@@ -35,7 +35,7 @@ header{
 	border:1px solid white;
 }
 header h1{
-	
+
 	width:300px;
 	margin:0px auto;
 	font-size:50px;
@@ -45,17 +45,17 @@ header h1{
 }
 
 header form{
-	
+
 	width:1000px;
 	margin:0px auto;
-	margin-top:100px;
+	margin-top:50px;
 	margin-bottom:30px;
 	//border:1px solid black;
 
 }
 
 header form input[type="text"]{
-	
+
 	width:1000px;
 	margin:10px auto;
 	padding:10px;
@@ -75,8 +75,8 @@ header form input[type="text"]{
 
 }
 header form input[type="submit"]{
-	
-	
+
+
 	width:300px;
 	padding:5px;
 	margin:0px auto;
@@ -85,7 +85,7 @@ header form input[type="submit"]{
 	color:white;
 	background-color:rgb(255,150,0);
 	outline:none;
-	
+
 
 }
 
@@ -94,10 +94,10 @@ header form input[type="submit"]{
 
 	width:300px;
 	height:300px;
-	margin:0px auto; 
+	margin:0px auto;
 	border:1px solid black;
 	border-radius:100%;
-	
+
 
 
 }
@@ -106,27 +106,32 @@ header form input[type="submit"]{
 	width:1300px;
 	margin:0px auto;
 	margin-top:70px;
-	margin-bottom:70px;
-	//border:1px solid black;
-
 }
 .but{
-
-	width:200px;
+	display: inline-block;
+	width:190px;
 	height:50px;
 	padding:5px;
-	margin-top:100px;
-	margin-left:174px;
+	margin: 0px 0px 50px 100px;
 	font-size:20px;
 	font-weight:bold;
 	color:white;
-	background-color:rgb(10,10,255);
+	background-color:#333;
 	border:none;
-	//border-radius:12px;
+	border-radius:12px;
 	outline:none;
+	text-align: center;
+	justify-content: center;
+}
+a {
+	vertical-align: middle;
+	margin-top: 10px;
+	line-height: 50px;
+	color: #fff;
+	height: 55px;
+	text-decoration: none;
 
 }
-
 </style>
 </head>
 <body>
@@ -139,20 +144,20 @@ header form input[type="submit"]{
 			<div id="go"><input type="submit" name="submitSearch" value="Go"></div>
 		</form>
 		<div id="btns">
-			
-			<a href="#"><input type="button" class="but" value="Carpenters"></a>
-			<a href="#"><input type="button" class="but" value="Sweepers"></a>
-			<a href="#"><input type="button" class="but" value="Driver Service"></a>
-			<a href="#"><input type="button" class="but" value="Tailor"></a>
-			<a href="#"><input type="button" class="but" value="Electricians"></a>
-			<a href="#"><input type="button" class="but" value="Plumbers"></a>
-			<a href="#"><input type="button" class="but" value="Masons"></a>
-			<a href="#"><input type="button" class="but" value="Painters"></a>
-			<a href="#"><input type="button" class="but" value="Pest Control"></a>
-			<a href="#"><input type="button" class="but" value="House Repairs"></a>
-			<a href="#"><input type="button" class="but" value="Towing Service"></a>
-			<a href="#"><input type="button" class="but" value="Garage"></a>
-		
+
+			<div class="but"><a href="#">Carpenters</a></div>
+			<div class="but"><a href="#">Sweepers</a></div>
+			<div class="but"><a href="#">Driver Service</a></div>
+			<div class="but"><a href="#">Tailor</a></div>
+			<div class="but"><a href="#">Electricians</a></div>
+			<div class="but"><a href="#">Plumbers</a></div>
+			<div class="but"><a href="#">Masons</a></div>
+			<div class="but"><a href="#">Painters</a></div>
+			<div class="but"><a href="#">Pest Control</a></div>
+			<div class="but"><a href="#">House Repairs</a></div>
+			<div class="but"><a href="#">Towing Service</a></div>
+			<div class="but"><a href="#">Garage</a></div>
+
 		</div>
 	</header>
 </div>
